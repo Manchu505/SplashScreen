@@ -19,6 +19,7 @@ import Home from './screens/HomeScreen';
 import Contact from './screens/ContactCard';
 import Settings from './screens/SettingScreen';
 import QRCodeGenerator from './screens/ContactCard';
+import Sound from './screens/ObligatorySound';
 
 
 //The splash screen is shown for 5 seconds before hiding automatically.
@@ -99,20 +100,20 @@ function MyTabs() {
 		  }}
 		/>
 		<Tab.Screen
-		  name="Notifications"
-		  component={User}
+		  name="Let's Make Some Noise"
+		  component={Sound}
 		  options={{
-			tabBarLabel: 'Updates',
+			tabBarLabel: 'Sound',
 			tabBarIcon: ({ color, size }) => (
 			  <MaterialCommunityIcons name="hexagon-slice-5" color={color} size={size} />
 			),
 		  }}
 		/>
 		<Tab.Screen
-		  name="Contacts"
+		  name="Digital vCard"
 		  component={QRCodeGenerator}
 		  options={{
-			tabBarLabel: 'Settings',
+			tabBarLabel: 'vCard',
 			tabBarIcon: ({ color, size }) => (
 			  <MaterialCommunityIcons name="atom" color={color} size={size} />
 			),

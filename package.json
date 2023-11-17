@@ -13,6 +13,7 @@
     "@react-navigation/bottom-tabs": "^6.5.11",
     "@react-navigation/native": "^6.1.9",
     "expo": "~49.0.15",
+    "expo-av": "^13.6.0",
     "expo-barcode-scanner": "^12.7.0",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
